@@ -145,7 +145,8 @@
                         "Open Sans",
                         "Raleway",
                         "Lora",
-                        "Rokkitt"
+                        "Rokkitt",
+                        "PNMedium"
                     ]
                 },
                 {
@@ -211,7 +212,7 @@
                     "xtype": "mz-input-text",
                     "name": "defaultSort",
                     "allowBlank": true      ,
-                    "allowOnlyWhitespace":true           
+                    "allowOnlyWhitespace":true
                 }
             ]
         },

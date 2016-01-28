@@ -9,7 +9,7 @@
 {# know you need it.                                                    #}
 <script type="text/json" id="data-mz-preload-facetedproducts">
 {
-	"facets": {% json model.facets %}, 
+	"facets": {% json model.facets %},
 	"currentPage": {{ model.currentPage }},
 	"firstIndex": {{ model.firstIndex }},
 	"hasNextPage": {{ model.hasNextPage|lower }},
@@ -34,6 +34,7 @@
 {% endif %}
 
 <div class="mz-l-paginatedlist">
+    {% comment %}
     <div class="mz-l-paginatedlist-header">
         <div data-mz-pagesort class="mz-sortby">
             {% include "modules/common/page-sort" %}
@@ -45,9 +46,11 @@
             {% include "modules/common/paging-controls" %}
         </div>
     </div>
+    {% endcomment %}
     <div data-mz-productlist class="mz-l-paginatedlist-list">
         {% include "modules/product/product-list-tiled" %}
     </div>
+    {% comment %}
     <div class="mz-l-paginatedlist-footer">
         <div data-mz-pagenumbers class="mz-pagenumbers">
             {% include "modules/common/page-numbers" %}
@@ -56,4 +59,6 @@
             {% include "modules/common/paging-controls" %}
         </div>
     </div>
+    {% endcomment %}
 </div>
+

@@ -3,11 +3,11 @@
   "dateFormat"       : "F j, Y",
 
   "logOut"               : "Log Out",
-  "logIn"                : "Log In",
+  "logIn"                : "Sign In",
   "logIn2": "Sign in to your account",
   "anonOrderNumberMissing": "The order number you provided was not found. Please validate the order number and try again or contact customer service.",
   "anonAuthError": "Sorry, the information you provided did not match our records. Please check the information that you provided and try again or contact the customer service department.",
-  "signUp"               : "Sign Up",
+  "signUp"               : "Register",
   "signUpLink"           : "Create an Account",
   "forgotPassword"       : "Forgot your password",
   "orderStatus"          : "Order Status",
@@ -77,7 +77,7 @@
   "ccVisa"               : "Visa",
   "ccMastercard"         : "MasterCard",
   "ccAmericanExpress"    : "American Express",
-  "ccDiscover"           : "Discover", 
+  "ccDiscover"           : "Discover",
   "ccJcb"                : "JCB",
   "payPal"               : "Paypal Express",
   "password"             : "Password",
@@ -421,5 +421,5 @@
   "visaCheckoutEditReminder": "For security reasons you cannot edit the credit card information from Visa Checkout. If you proceed, your Visa Checkout details will be removed and this order will be processed without Visa Checkout.",
   "selectSavedAddress": "Select a saved address",
   "addAddress": "Add new address",
-  "editAddress": "Edit saved address" 
+  "editAddress": "Edit saved address"
 }
