@@ -70,6 +70,7 @@
             {% endif %}
             {% endpartial_cache %}
             {% require_script "modules/contextify" %}
+            {% require_script "pages/header" %}
         </ul>
     </nav>
 </div>

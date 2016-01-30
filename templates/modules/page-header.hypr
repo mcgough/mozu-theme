@@ -9,5 +9,7 @@
       {% block search-box %}
           {% include "modules/page-header/search-box" %}
       {% endblock search-box %}
-
+      {% block minimal %}
+          {% include "modules/page-header/minimal-header" %}
+      {% endblock minimal %}
   </header>
