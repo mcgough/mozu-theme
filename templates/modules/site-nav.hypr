@@ -73,4 +73,7 @@
             {% require_script "pages/header" %}
         </ul>
     </nav>
+    {% block minimal %}
+      {% include "modules/page-header/minimal-header" %}
+    {% endblock minimal %}
 </div>
