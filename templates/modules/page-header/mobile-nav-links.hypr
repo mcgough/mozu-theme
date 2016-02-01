@@ -1,0 +1,11 @@
+<div class="mobile-nav">
+  <div class="mobile-header-links">
+    <a href="#" class="sign-in">Sign In</a>
+    <a href="#" class="register">Register</a>
+  </div>
+  <nav id="categories">
+  </nav>
+  <div id="footer" class="mobile">
+
+  </div>
+</div>

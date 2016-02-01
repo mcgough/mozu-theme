@@ -1,5 +1,5 @@
-﻿<div id="header-wrapper">
-  <header class="mz-pageheader{% if themeSettings.bannerImageEnabled %} mz-pageheader-hasbanner {% endif %}">
+﻿<div id="header-wrapper" class="non-mobile">
+  <header class="mz-pageheader{% if themeSettings.bannerImageEnabled %} mz-pageheader-hasbanner {% endif %} non-mobile">
      {% block store-branding %}
           {% include "modules/page-header/store-branding" %}
       {% endblock store-branding %}

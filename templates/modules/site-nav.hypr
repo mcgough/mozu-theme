@@ -1,4 +1,4 @@
-﻿    <nav class="mz-sitenav">
+﻿    <nav class="mz-sitenav non-mobile">
         <ul class="mz-sitenav-list"
             data-mz-contextify='.mz-sitenav-link[href="{{ navigation.currentNode.url }}"]'
             data-mz-contextify-attr='class'
@@ -77,3 +77,6 @@
       {% include "modules/page-header/minimal-header" %}
     {% endblock minimal %}
 </div>
+{% block mobile-nav %}
+  {% include "modules/page-header/mobile-nav" %}
+{% endblock mobile-nav %}

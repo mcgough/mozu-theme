@@ -1,5 +1,5 @@
 ﻿@font-face {
-  font-family: FontTestMedium;
+  font-family: PNMedium;
   font-weight: normal;
   font-style: normal;
   src: url("https://cdn-sb.mozu.com/15185-m1/cms/files/86d43a7d-0480-4a19-ac27-7f019a2129b6");
@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
     height: 100%;
     background-color: @bodyBackgroundColor;
-	  font-family: FontTestMedium;
+	  font-family: PNMedium;
     font-size: @fontSize;
 	  color: @textColor;
 }
@@ -36,6 +36,9 @@ a {
 
 p {
     margin: @gutter/2 0;
+}
+.mobile {
+  display: none;
 }
 
 // preventing FOUT since web fonts are loading asynchronously
