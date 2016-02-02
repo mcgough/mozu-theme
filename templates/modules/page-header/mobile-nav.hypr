@@ -16,4 +16,5 @@
   {% block mobile-nav-links %}
     {% include "modules/page-header/mobile-nav-links" %}
   {% endblock mobile-nav-links %}
+  {% require_script "pages/mobilenav" %}
 </div>

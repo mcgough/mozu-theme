@@ -4,6 +4,13 @@
     <a href="#" class="register">Register</a>
   </div>
   <nav id="categories">
+    {% partial_cache %}
+      {% for link in navigation.tree %}
+        {% if not link.isHidden and forloop.counter0 < themeSettings.maxTopLevelNavItems %}
+          <a href="{{link.url}}">{{ link.name|safe }}</a>
+        {% endif %}
+      {% endfor %}
+    {% endpartial_cache %}
   </nav>
   <div id="footer" class="mobile">
 
