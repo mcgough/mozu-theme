@@ -1,7 +1,7 @@
 <div class="mobile-nav">
   <div class="mobile-header-links">
-    <a href="#" class="sign-in">Sign In</a>
-    <a href="#" class="register">Register</a>
+    <a href="/user/login" class="sign-in">Sign In</a>
+    <a href="/user/signup" class="register">Register</a>
   </div>
   <nav id="categories">
     {% partial_cache %}

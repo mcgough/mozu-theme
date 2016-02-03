@@ -1,6 +1,6 @@
 define(['jquery'],function($) {
-  console.log('connected!!!');
-  $('.hamburger').click(function(){
-    console.log('!');
+  $('.hamburger').on('click',function(e){
+    e.preventDefault();
+    return $('.mobile-nav').toggleClass('mobile-nav-open');
   });
 });

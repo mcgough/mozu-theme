@@ -41,9 +41,15 @@
     }
 
     .mz-searchbox {
-        position: absolute;
-        top: @utilityNavHeight + ( @gutter / 2 );
-        right: @gutter;
+        z-index: 100;
+        visibility: hidden;
+        position: relative;
+        // top: @utilityNavHeight + ( @gutter / 2 );
+        // right: @gutter;
+        bottom: 27px;
+        // -webkit-transition: bottom 0.35s ease-in-out;
+        // -moz-transition: bottom 0.35s ease-in-out;
+        // transition: bottom 0.35s ease-in-out;
     }
 
     // @media only screen {

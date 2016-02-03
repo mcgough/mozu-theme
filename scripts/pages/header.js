@@ -1,4 +1,5 @@
 define(['jquery'], function($) {
+
   if(window.innerWidth > 550) {
     var $headerNav = $('.minimal');
     $(document).scroll(function(){
@@ -13,4 +14,9 @@ define(['jquery'], function($) {
       }
     });
   }
+
+  $('.header-searchbox-button').on('click',function(){
+    console.log($('.mz-pageheader #searchbox'));
+    $('.mz-pageheader #searchbox').toggleClass('open-search');
+  });
 });
