@@ -1,0 +1,3 @@
+<div id="footer" class="mobile">
+  {% include "modules/footer/mobile-search" %}
+</div>
