@@ -12,5 +12,7 @@
       {% endfor %}
     {% endpartial_cache %}
   </nav>
-
+  {% block mobile-footer %}
+    {% include "modules/mobile-footer/mobile-footer" %}
+  {% endblock mobile-footer %}
 </div>
