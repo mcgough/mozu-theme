@@ -1,19 +1,12 @@
-﻿@font-face {
-  font-family: PNMedium;
-  font-weight: normal;
-  font-style: normal;
-  src: url("https://cdn-sb.mozu.com/15185-m1/cms/files/86d43a7d-0480-4a19-ac27-7f019a2129b6");
-//   // src: url("/resources/fonts/ProgramNarOT-Medium/ProgramNarOT-Medium.eot?#iefix") format("embedded-opentype"), url("/resources/fonts/ProgramNarOT-Medium/ProgramNarOT-Medium.woff") format("woff"), url("/resources/fonts/ProgramNarOT-Medium/ProgramNarOT-Medium.ttf") format("truetype"), url("/resources/fonts/ProgramNarOT-Medium/ProgramNarOT-Medium.svg#PNMedium") format("svg");
-}
-html {
+﻿html {
     height: 100%;
 }
 
 body {
     margin: 0 auto;
     height: 100%;
-    background-color: @bodyBackgroundColor;
-	  font-family: PNMedium;
+    background-color: @redingtonRed;
+	  font-family: PBook,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: @fontSize;
 	  color: @textColor;
 }
@@ -23,8 +16,10 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
     color: @textColor;
     text-transform: uppercase;
+    font-family: PNMedium,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 a {
+    font-family: PNMedium,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: @linkColor;
     &:visited {
         color: @linkVisitedColor;
@@ -32,10 +27,12 @@ a {
     &:hover {
         color: @linkHoverColor;
     }
+    -webkit-tap-highlight-color: rgba(207, 124, 112, 0.5);
 }
 
 p {
     margin: @gutter/2 0;
+    font-family: PBook, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .mobile {
   display: none;
@@ -160,7 +157,7 @@ button {
 }
 
 .mz-page-headernote {
-    margin-left: 133px;
+  margin-left: 133px;
 	font-weight: normal;
 }
 
@@ -174,4 +171,25 @@ button {
 
 .mz-pagetitle {
   font-weight: normal;
+}
+#page-wrapper {
+  background: white;
+}
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #fff;
+  border: 1px solid #d51e00;
+  color: #d51e00;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  font-family: PNRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  &:hover {
+    background: @redingtonRed;
+    color: #fff;
+  }
 }
